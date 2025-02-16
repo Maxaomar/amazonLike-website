@@ -6,7 +6,18 @@ export default function TopBar() {
             <a href="">Deliver To</a>
             <a href="locatio"><img src="src/images/marker.png" alt="" /></a>
 
-            <input type="text"  className="w-96 h-6"/>
+
+            <div class="search-container">
+                <select>
+                     <option>All</option>
+                     <option>Electronics</option>
+                    <option>Beauty Tools & Accessories</option>
+                    <option>Books</option>
+                </select>
+                <input type="text" placeholder="Search Amazon" />
+
+                <i class="fa-solid fa-magnifying-glass" ></i>
+            </div>
 
         </nav>
         </header>
