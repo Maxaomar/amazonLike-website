@@ -1,4 +1,6 @@
-export function Products(params) {
+import { products } from "../product.js"
+
+export function Products() {
   return(
     <section>
       <img src="" alt="" />
