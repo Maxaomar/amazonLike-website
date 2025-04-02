@@ -1,4 +1,4 @@
-export default function BottomBar() {
+export function BottomBar() {
     return(
         <header className="bg-slate-950 text-white flex items-center">
              <a href=""> <i class="fa-solid fa-bars"></i> All</a>
