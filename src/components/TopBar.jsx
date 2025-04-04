@@ -20,7 +20,7 @@ export function TopBar() {
                     </select>
                     <input type="text" placeholder="Search Amazon" />
 
-                    <i class="fa-solid fa-magnifying-glass" ></i>
+                    <i className="fa-solid fa-magnifying-glass" ></i>
                 </div>
 
                 <select>

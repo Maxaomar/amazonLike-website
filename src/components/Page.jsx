@@ -1,4 +1,4 @@
-import { Products } from "./Products";
+import { Products } from "./Product";
 
 export function Page() {
   return(

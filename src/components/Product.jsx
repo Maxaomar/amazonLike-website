@@ -1,9 +1,8 @@
-import { products } from "../product.js"
+import { products } from "../products.js"
 
 export function Products() {
-  // const productList = products.map((product) => {
-    
-  // })
+  const productList = products.map((product) => {
+  })
 
   return(
     <section>
