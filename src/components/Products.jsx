@@ -1,6 +1,6 @@
 import { products } from "../products.js"
 
-export function Products() {
+export function ProductLayout() {
   const productList = products.map((product) => {
   })
 
@@ -18,5 +18,20 @@ export function Products() {
             <div>$19.99</div>
             <button>Add to cart</button>
     </section>
+  )
+}
+
+
+
+
+
+
+
+
+
+export function MainPage() {
+  return (
+    <>
+    </>
   )
 }
