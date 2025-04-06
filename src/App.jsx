@@ -1,6 +1,6 @@
 import { TopBar } from "./components/TopBar"
 import { BottomBar } from "./components/BottomBar"
-import { Page } from "./components/Page"
+import { ProductLayout } from "./components/Products"
 import { Footer } from "./components/Footer"
 
 
@@ -9,7 +9,7 @@ export default function App() {
     <main>
       <TopBar />
       <BottomBar />
-      <Page />
+      <ProductLayout />
       <Footer />
     </main>
   )

@@ -5,19 +5,21 @@ export function ProductLayout() {
   })
 
   return(
-    <section>
-          <img src="src/images/products/adults-plain-cotton-tshirt-2-pack-teal.png" alt="2-pair of trouser" />
-          <h2>adults-plain-cotton-tshirt-2-pack-teal</h2>
+    <main>
+        <article>
+            <img src="src/assets/images/products/athletic-cotton-socks-6-pairs.jpg" alt="2-pair of trouser" />
+            <h2>Black and Gray Athletic Cotton Socks - 6 Pairs</h2>
 
-            <div>
-              <div><img src="src/images/ratings/rating-05.png" alt="" /></div>
-              <h4>2999</h4>
+              <div>
+                <div><img src="src/assets/images/ratings/rating-05.png" alt="" /></div>
+                <span>87</span>
+              </div>
 
-            </div>
+              <div>$10.90</div>
 
-            <div>$19.99</div>
-            <button>Add to cart</button>
-    </section>
+              <button>Add to cart</button>
+         </article>
+    </main>
   )
 }
 
