@@ -3,7 +3,7 @@ import cartIcon from '../assets/images/icons/cart-icon.png';
 
 export function TopBar() {
     return(
-        <header className="flex items-center bg-slate-500 topbar">
+        <header className="flex items-center justify-between bg-slate-500 topbar p-4">
              <a href=""><img src={amazonLogo} alt="amazon logo photo" className='w-16' /></a>
 
              <div className='flex'>
@@ -12,8 +12,8 @@ export function TopBar() {
              </div>
 
 
-             <div className="flex w-7 h-7">
-                    <select>
+             <div className="flex">
+                    <select className='bg-amber-600 w-12 h-8'>
                         <option>All</option>
                         <option>Electronics</option>
                         <option>Beauty Tools & Accessories</option>
@@ -27,8 +27,8 @@ export function TopBar() {
                </div>
 
 
-               <div className='flex w-5 h-7'>
-                <select className='bg-red-400'>
+               <div className='flex'>
+                <select className='bg-red-400 w-12 h-8'>
                         <option value="English">EN</option>
                         <option value="">AR</option>
                         <option value="">SM</option>
@@ -37,23 +37,18 @@ export function TopBar() {
                     </select>
                </div>
 
-
-
-            <nav className="flex">
-
-
-               <div className='flex items-center gap-4'>
-                     <select>
-                        <option value=""><span>Hello, sign in</span> <br /> Accounts & Lists</option>
-                     </select>
-                    <h1>Hello sign in</h1>
-                    <h2>Accounts & Lists</h2>
-
-                    <h3>Returns & Orders</h3>
-                    <img src={cartIcon} alt="" className='bg-red-600'/>
+               <div className='flex'>
+                 <select className='bg-amber-600 w-12 h-8'>
+                     <option value="">Hello, sign in</option>
+                     <h2>Accounts & Lists</h2>
+                 </select>
                </div>
 
-            </nav>
+
+                    <h3>Returns & Orders</h3>
+                    <img src={cartIcon} alt="" className=''/>
+
+
         </header>
     )
 }
