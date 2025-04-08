@@ -3,15 +3,16 @@ import cartIcon from '../assets/images/icons/cart-icon.png';
 
 export function TopBar() {
     return(
-        <header className="flex items-center bg-gray-100 p-2">
+        <header className="flex items-center bg-slate-500 topbar">
              <a href=""><img src={amazonLogo} alt="amazon logo photo" className='w-16' /></a>
 
-            <nav className="flex">
-                <a href="">Deliver To</a>
-                <a href="location"><img src="src/images/marker.png" alt="" /></a>
+             <div className='flex'>
+                    <a href="">Deliver To</a>
+                    <a href="location"><img src="src/assets/images/marker.png" alt="" /></a>
+             </div>
 
 
-                <div className="">
+             <div className="flex w-7 h-7">
                     <select>
                         <option>All</option>
                         <option>Electronics</option>
@@ -20,19 +21,25 @@ export function TopBar() {
                     </select>
                 </div>
 
-
-               <div className='bg-yellow-300'>
+                <div className='bg-yellow-300'>
                     <input type="text" placeholder="Search Amazon" />
                     <i className="fa-solid fa-magnifying-glass" ></i>
                </div>
 
-                <select>
-                    <option value="English">EN</option>
-                    <option value="">AR</option>
-                    <option value="">SM</option>
-                    <option value="">KI</option>
-                    <option value="">ES</option>
-                </select>
+
+               <div className='flex w-5 h-7'>
+                <select className='bg-red-400'>
+                        <option value="English">EN</option>
+                        <option value="">AR</option>
+                        <option value="">SM</option>
+                        <option value="">KI</option>
+                        <option value="">ES</option>
+                    </select>
+               </div>
+
+
+
+            <nav className="flex">
 
 
                <div className='flex items-center gap-4'>
