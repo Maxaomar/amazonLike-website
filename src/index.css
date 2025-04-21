@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 
-body{
+body {
   margin: 0;
   padding: 0;
 }
@@ -13,6 +13,24 @@ body{
   padding-right: 30px;
 } */
 
-.topbar{
+.topbar {
   height: 10vh;
+}
+
+.products {
+  width: 168px;
+  margin-left: 10px;
+}
+
+/* .product-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+} */
+
+
+.add-button {
+  background-color: orange;
+  color: white;
+  border-radius: 10px;
 }
