@@ -1,7 +1,8 @@
 import { products } from "../products.js"
 
-export function ProductLayout() {
+export function ProductLayout(props) {
   const productList = products.map((product) => {
+    console.log("added")
   })
 
   return(
@@ -12,7 +13,7 @@ export function ProductLayout() {
           </div>
 
 
-            <h2>Black and Gray Athletic Cotton Socks - 6 Pairs</h2>
+            <h2>{props.name}</h2>
 
               <div className="flex gap-5 items-center">
                 <div><img src="src/assets/images/ratings/rating-05.png" alt="" /></div>
