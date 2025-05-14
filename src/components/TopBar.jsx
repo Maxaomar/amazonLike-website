@@ -46,7 +46,7 @@ export function TopBar() {
             </div>
 
             <h3>Returns & Orders</h3>
-            <img src={cartIcon} alt="" className=''/>
+            <img src={cartIcon} alt="" className='w-12'/>
     </nav>
 </header>
 )
