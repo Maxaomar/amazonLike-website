@@ -1,9 +1,11 @@
 import amazonLogo  from '../assets/amazon.png';
 import cartIcon from '../assets/images/icons/cart-icon.png';
+import  '../styles/topbar.css'
+
 
 export function TopBar() {
     return(
-        <header className="flex items-center justify-between bg-slate-500 topbar p-4">
+        <header className="topbar flex items-center justify-between">
             <nav>
                  <a href=""><img src={amazonLogo} alt="amazon logo photo" className='w-16' /></a>
 
