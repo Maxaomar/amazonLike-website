@@ -5,9 +5,10 @@ import  '../styles/topbar.css'
 
 export function TopBar() {
     return(
-    <header className="header flex items-center justify-between">
-        <nav className='navbar flex items-center'>
-            <a href=""><img src={amazonLogo} alt="amazon logo photo" className='w-16' /></a>
+        <nav className='nav-container flex items-center'>
+            <header className='flex'>
+                <a href=""><img src={amazonLogo} alt="amazon logo photo" className='w-16' /></a>
+            </header>
 
             <div className='flex'>
                 <a href="">Deliver To</a>
@@ -45,9 +46,11 @@ export function TopBar() {
                 </select>
             </div>
 
-            <h3>Returns & Orders</h3>
-            <img src={cartIcon} alt="" className='w-12'/>
+
+            <div className='flex'>
+                <h3>Returns & Orders</h3>
+                <img src={cartIcon} alt="" className='w-12'/>
+            </div>
     </nav>
-</header>
 )
 }

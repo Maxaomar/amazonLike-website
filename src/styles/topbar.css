@@ -1,4 +1,5 @@
 
-.header {
-  background-color: rgb(132, 132, 179);
+.nav-container {
+   background-color: yellowgreen;
+  justify-content: space-between;
 }
