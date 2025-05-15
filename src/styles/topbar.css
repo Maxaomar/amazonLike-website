@@ -1,5 +1,19 @@
 
 .nav-container {
    background-color: yellowgreen;
-  justify-content: space-between;
+  justify-content: space-around;
+}
+
+
+
+input{
+  
+}
+
+
+
+.search-bar{
+  display: flex;
+  align-items: center;
+  width: 500px;
 }

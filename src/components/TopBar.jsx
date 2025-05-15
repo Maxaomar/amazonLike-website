@@ -24,7 +24,7 @@ export function TopBar() {
                 </select>
             </div>
 
-            <div className='bg-yellow-300'>
+            <div className='search-bar bg-yellow-300'>
                 <input type="text" placeholder="Search Amazon" />
                 <i className="fa-solid fa-magnifying-glass" ></i>
             </div>
