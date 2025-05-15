@@ -1,0 +1,16 @@
+.product-container{
+    display: flex;
+    align-items: center;
+    width: 17%;
+    border: 2px solid rgb(212, 221, 212);
+    height: 77vh;
+}
+
+
+
+
+
+
+.product-image{
+
+}
