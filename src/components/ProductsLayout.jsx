@@ -15,7 +15,7 @@ export function ProductsLayout(props) {
               <span>87</span>
           </div>
 
-          <div>{props.price}</div>
+          <div>{props.priceCents}</div>
 
 <div>
 <select>
