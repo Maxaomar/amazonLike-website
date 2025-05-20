@@ -34,3 +34,26 @@ body {
 .search-bar{
   width: 350px;
 } */
+
+
+
+.product-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 17%;
+    border: 2px solid rgb(212, 221, 212);
+    height: 77vh;
+}
+
+
+.product-container-box{
+   color: #000;
+}
+
+
+
+.product-image{
+ display: flex;
+}
