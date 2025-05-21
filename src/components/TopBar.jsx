@@ -10,9 +10,9 @@ export function TopBar() {
                 <a href=""><img src={amazonLogo} alt="amazon logo photo" className='w-24' /></a>
             </header>
 
-            <div className='flex text-xs'>
-                <a href="">Deliver To
-                    <img src="src/assets/marker.png" alt="" />
+            <div className='flex'>
+                <a href="" className='text-xs'>Deliver To
+                    <img src="src/assets/marker.png" alt="" className='max-w-4'/>
                 </a>
             </div>
 
