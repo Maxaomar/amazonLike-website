@@ -1,3 +1,4 @@
+
 export function ProductsLayout(props) {
   return(
       <main className="product-container">
@@ -10,7 +11,7 @@ export function ProductsLayout(props) {
 
           <div className="flex gap-5 items-center">
               <div><img src="src/assets/images/ratings/rating-05.png" alt="" /></div>
-              <span>87</span>
+              <span></span>
           </div>
 
           <div className=''>{props.priceCents}</div>

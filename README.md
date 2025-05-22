@@ -11,3 +11,4 @@ Black and Gray Athletic Cotton Socks - 6 Pairs
 
 i have my data stored in in a file called `productData.js` then imported to the `page` file and `maped over it` that's
 like though each one with a **Callback function that updates it**  with the `productLayout function`
+
