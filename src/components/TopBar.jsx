@@ -17,7 +17,7 @@ export function TopBar() {
             </div>
 
             <div className="flex">
-                <select className='w-16 bg-selections'>
+                <select className='w-12 bg-selections'>
                     <option>All</option>
                     <option>Electronics</option>
                     <option>Beauty Tools & Accessories</option>
@@ -25,14 +25,14 @@ export function TopBar() {
                 </select>
 
                 <div className='search-bar bg-yellow-300'>
-                    <input type="text" placeholder="Search Amazon" />
-                    <i className="fa-solid fa-magnifying-glass" ></i>
+                    <input type="text" placeholder="Search Amazon" className=''/>
+                    <i className="fa-solid fa-magnifying-glass ml-1.5 text-xl" ></i>
                 </div>
             </div>
 
 
             <div className='flex'>
-                <select className='bg-red-400 w-12 h-8'>
+                <select className='bg-red-400 w-8 h-8'>
                     <option value="English">EN</option>
                     <option value="">AR</option>
                     <option value="">SM</option>

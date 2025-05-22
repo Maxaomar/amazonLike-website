@@ -7,6 +7,7 @@ export function Page() {
             <ProductsLayout
                priceCents={product.priceCents}
                name={product.name}
+               
             />
         )
     })
