@@ -39,17 +39,17 @@ body {
 
 .product-container{
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
     align-items: center;
-    width: 17%;
-    border: 2px solid rgb(212, 221, 212);
+    width: 17.5%;
+    border: 2px solid rgb(154, 206, 154);
     height: 77vh;
+    margin-bottom: 4px;
 }
 
 
 .product-container-box{
-   color: #000;
+   color: #1f1d1d;
+   font-weight: bold;
 }
 
 

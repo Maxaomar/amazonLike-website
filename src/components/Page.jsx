@@ -5,9 +5,9 @@ export function Page() {
     const productList = productsData.map((product) => {
         return(
             <ProductsLayout
-               priceCents={product.priceCents}
-               name={product.name}
-               
+               price={product.priceCents}
+               names={product.name}
+
             />
         )
     })

@@ -7,14 +7,16 @@ export function ProductsLayout(props) {
                   <img src="src/assets/images/products/athletic-cotton-socks-6-pairs.jpg" alt="2-pair of trouser" />
               </div>
 
-              <h2 className=''>{props.name}</h2>
+              <h2 className=''>{props.names}</h2>
 
           <div className="flex gap-5 items-center">
-              <div><img src="src/assets/images/ratings/rating-05.png" alt="" /></div>
+              <div>
+                   <img src="src/assets/images/ratings/rating-05.png" alt="" />
+              </div>
               <span></span>
           </div>
 
-          <div className=''>{props.priceCents}</div>
+          <div className=''>{props.price}</div>
 
           <div className=''>
               <select>
