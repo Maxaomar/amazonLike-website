@@ -1,5 +1,5 @@
-import amazonLogo  from '../assets/amazon.png';
-import cartIcon from '../assets/images/icons/cart-icon.png';
+import amazonLogo  from '../images/amazon.png';
+import cartIcon from '../images/icons/cart-icon.png';
 import  '../styles/topbar.css'
 
 
@@ -12,7 +12,7 @@ export function TopBar() {
 
             <div className='flex'>
                 <a href="" className='text-xs'>Deliver To
-                    <img src="src/assets/marker.png" alt="" className='max-w-4'/>
+                    <img src="src/images/marker.png" alt="" className='max-w-4'/>
                 </a>
             </div>
 
