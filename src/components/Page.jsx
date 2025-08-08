@@ -15,7 +15,7 @@ export function Page() {
     })
 
     return(
-        <main>
+        <main className="page">
             {productList}
         </main>
     )

@@ -1,8 +1,8 @@
 
 export function ProductsLayout(props) {
   return(
-      <main className="product-container">
-        <article className="product-container-box">
+      <section className="product-container">
+        <main className="product-container-box">
               <div className="product-image">
                   <img src={props.images} alt="2-pair of trouser" />
               </div>
@@ -37,7 +37,7 @@ export function ProductsLayout(props) {
                <button className="add-button">Add to cart</button>
           </div>
 
-   </article>
-</main>
+   </main>
+</section>
   )
 }
