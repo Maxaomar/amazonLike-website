@@ -8,9 +8,8 @@ body {
   padding: 0;
 }
 
-.page{
+.page {
   display: flex;
-  flex: 1 0 0;
   flex-wrap: wrap;
 }
 
@@ -42,21 +41,23 @@ body {
 
 
 
-.product-container{
-    width: 17.5%;
-    border: 2px solid rgb(154, 206, 154);
-    height: 77vh;
-    margin-bottom: 4px;
+.product-container {
+  display: flex;
+  flex: 0 0 154px;
+  width: 17.5%;
+  border: 2px solid rgb(154, 206, 154);
+  height: 77vh;
+  margin-bottom: 4px;
 }
 
 
-.product-container-box{
-   color: #1f1d1d;
-   font-weight: 500;
+.product-container-box {
+  color: #1f1d1d;
+  font-weight: 500;
 }
 
 
 
-.product-image{
- display: flex;
+.product-image {
+  display: flex;
 }
