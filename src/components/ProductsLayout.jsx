@@ -3,8 +3,8 @@ export function ProductsLayout(props) {
   return(
       <section className="product-container">
         <main className="product-container-box">
-              <div className="product-image">
-                  <img src={props.images} alt="2-pair of trouser" />
+              <div className="product-image-container">
+                  <img src={props.images} className="product-image" alt="2-pair of trouser" />
               </div>
 
               <h2 className=''>{props.names}</h2>
