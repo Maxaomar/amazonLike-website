@@ -43,11 +43,11 @@ body {
 
 .product-container {
   display: flex;
+  align-items: center;
   flex: 0 0 180px;
   width: 17.5%;
-  border: 2px solid rgb(154, 206, 154);
-  height: 77vh;
-  margin-bottom: 4px;
+  border: 2px solid rgb(235, 235, 235);
+  height: 78vh;
 }
 
 
@@ -74,5 +74,6 @@ body {
 .add-button{
   background-color: rgb(238, 223, 13);
   border-radius: 12px;
+  margin-top: 25px;
   padding: 2px 18px;
 }
