@@ -7,7 +7,8 @@ export default {
   theme: {
     extend: {
       colors: {
-        selections: "#d1dbd0"
+        selections: "rgb(117, 117, 113)",
+        bottomNav: "rgba(0, 0, 0, 0.747)"
       }
     },
   },

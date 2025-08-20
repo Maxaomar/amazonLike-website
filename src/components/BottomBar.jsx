@@ -1,6 +1,6 @@
 export function BottomBar() {
     return(
-        <header className="bg-slate-950 text-white flex items-center h-10vh">
+        <header className="bg-bottomNav text-white flex items-center h-10vh">
              <a href=""> <i className="fa-solid fa-bars"></i> All</a>
 
         <nav className="flex gap-2 pl-3">

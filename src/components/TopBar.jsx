@@ -1,4 +1,4 @@
-import amazonLogo  from '../images/amazon.png';
+import amazonLogo  from '../images/amazon-logo-white.png';
 import cartIcon from '../images/icons/cart-icon.png';
 import  '../styles/topbar.css'
 
@@ -8,7 +8,7 @@ export function TopBar() {
         <nav className='nav-container'>
             {/* layer 1 */}
                 <div className='flex'>
-                    <a href=""><img src={amazonLogo} alt="amazon logo photo" className='w-24' /></a>
+                    <a href=""><img src={amazonLogo} alt="amazon logo photo" className='w-24'/></a>
                 </div>
 
             {/* layer 2 */}
@@ -21,12 +21,12 @@ export function TopBar() {
 
 
             {/* layer 3 */}
-            <div className="flex">
+            <div className="flex flex-grow">
                     <select className='w-12 bg-selections'>
-                        <option>All</option>
-                        <option>Electronics</option>
-                        <option>Beauty Tools & Accessories</option>
-                        <option>Books</option>
+                        <option value="All">All</option>
+                        <option value="Electronics">Electronics</option>
+                        <option value="Beauty Tools & Accessories">Beauty Tools & Accessories</option>
+                        <option value="Books">Books</option>
                     </select>
 
                     <div className='search-bar bg-yellow-300'>
@@ -37,17 +37,17 @@ export function TopBar() {
 
             {/* layer 4 */}
 
-                    <select className='bg-red-400 w-8 h-8'>
-                        <option value="English">EN</option>
-                        <option value="">AR</option>
-                        <option value="">SM</option>
-                        <option value="">KI</option>
-                        <option value="">ES</option>
+                    <select className='w-9 h-8 bg-black'>
+                        <option value="EN">EN</option>
+                        <option value="AR">Arabic</option>
+                        <option value="SO">Somali</option>
+                        <option value="KI">Kiswahili</option>
+                        <option value="ES">Espanyol</option>
                     </select>
 
             {/* layer 5 */}
 
-                    <select className='bg-amber-600 w-12 h-8'>
+                    <select className='w-12 h-8 text-white bg-black'>
                         <option value="">Hello, sign in</option>
                         <h2>Accounts & Lists</h2>
                     </select>
