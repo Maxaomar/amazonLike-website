@@ -4,19 +4,19 @@ export function ProductsLayout(props) {
       <section className="product-container">
         <main className="product-container-box">
               <div className="product-image-container">
-                  <img src={props.images} className="product-image" alt="2-pair of trouser" />
+                  <img src={props.image} className="product-image" alt="2-pair of trouser" />
               </div>
 
-              <h2 className=''>{props.names}</h2>
+              <h2 className=''>{props.name}</h2>
 
           <div className="flex gap-5 items-center">
               <div>
                    <img src="src/images/ratings/rating-05.png" alt="" />
               </div>
-              <span>{props.counts}</span>
+              <span>{props.count}</span>
           </div>
 
-          <div className=''>{props.price}</div>
+          <div className=''>{props.priceCents}</div>
 
           <div className=''>
               <select className="">

@@ -5,12 +5,8 @@ export function Page() {
     const productList = productsData.map((product) => {
         return(
             <ProductsLayout
+                {...product}
                 key={product.id}
-                images={product.image}
-                price={product.priceCents}
-                names={product.name}
-                counts={product.rating.count}
-
             />
         )
     })

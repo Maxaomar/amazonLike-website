@@ -54,8 +54,11 @@ export function TopBar() {
 
             {/* layer 6 */}
 
-                    <div className='flex'>
-                        <h3>Returns & Orders</h3>
+                    <div className='flex highlights'>
+                        <h3>Returns & <br /> <b>Orders</b></h3>
+                    </div>
+
+                    <div>
                         <img src={cartIcon} alt="" className='w-12'/>
                     </div>
     </nav>
