@@ -21,7 +21,7 @@ export function TopBar() {
 
 
             {/* layer 3 */}
-            <div className="flex flex-grow">
+            <div className="flex">
                     <select className='w-12 bg-selections'>
                         <option value="All">All</option>
                         <option value="Electronics">Electronics</option>
@@ -29,14 +29,14 @@ export function TopBar() {
                         <option value="Books">Books</option>
                     </select>
 
-                    <div className='search-bar bg-yellow-300'>
+                    <div className='search-bar bg-orange-400'>
                         <input type="text" placeholder="Search Amazon" className=''/>
                         <i className="fa-solid fa-magnifying-glass ml-1.5 text-xl" ></i>
                     </div>
               </div>
 
             {/* layer 4 */}
-
+            <div className='flex justify-between borders'>
                     <select className='w-9 h-8 bg-black'>
                         <option value="EN">EN</option>
                         <option value="AR">Arabic</option>
@@ -61,6 +61,7 @@ export function TopBar() {
                     <div>
                         <img src={cartIcon} alt="" className='w-12'/>
                     </div>
+             </div>
     </nav>
 )
 }

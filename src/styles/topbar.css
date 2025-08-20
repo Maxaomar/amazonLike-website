@@ -1,14 +1,15 @@
 
 .nav-container {
       display: flex;
-      justify-content: space-between;
       align-items: center;
       gap: 0.8rem;
       height: 9vh;
       background-color: black;
       color: whitesmoke;
 }
-
+.borders{
+  border: 1px solid wheat;
+}
 .highlights:hover{
     border: 1px solid white;
 }
