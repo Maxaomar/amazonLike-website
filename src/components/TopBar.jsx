@@ -21,7 +21,7 @@ export function TopBar() {
 
 
             {/* layer 3 */}
-            <div className="flex">
+            <div className="flex input">
                     <select className='w-12 bg-selections'>
                         <option value="All">All</option>
                         <option value="Electronics">Electronics</option>
